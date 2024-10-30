@@ -1,20 +1,48 @@
-# BG-FASHION-LINE-REPORT
-Sum of Selling Area by Competitive Territory (Top Left Chart):
+# BG Fashion Line Sales Analysis
 
-This bar chart shows the total selling area divided by whether or not the territory is competitive.
-The chart indicates that most of the selling area belongs to non-competitive territories ("No"), with a much smaller portion belonging to competitive territories ("Yes").
-The non-competitive areas seem to account for more than 2 million units of selling area, while competitive areas account for less than 1 million units.
-Sum of Annual Sales by Chain (Top Right Chart):
+## Project Overview  
+This project is a sales analysis for BG Fashion Line, aiming to identify key sales trends and insights across different states. By analyzing annual sales and store performance using Power BI, this project provides actionable insights that can guide the brand's strategic decision-making. 
 
-This bar chart shows the total annual sales for two chains: Fashions Direct and Lindseys.
-Fashions Direct significantly outperforms Lindseys, with sales nearing 80 million, while Lindseys sales are less than 40 million.
-Sales and Selling Area Scatter Plot (Bottom Left Chart):
+## Data  
+The dataset includes sales records for BG Fashion Line across two chains, "Fashions Direct" and "Lindseys," in multiple states. Key data fields include:
+- **Chain**: The specific retail chain (Fashions Direct or Lindseys).
+- **Territory**: The state or territory where sales data were recorded.
+- **Competitive Territory**: Indicates if the territory has competing stores.
+- **Sales**: Annual sales for each location.
+- **Selling Area**: Size of the store in square footage.
 
-This scatter plot compares sales (on the x-axis) with selling area (on the y-axis).
-You can see that higher sales generally correspond to larger selling areas, but there is variation. Some locations have lower sales despite large selling areas.
-The data is clustered in different regions, suggesting that some selling areas generate higher sales than others.
-Table (Bottom Right):
+**Note**: This data has been anonymized and does not contain sensitive or proprietary information.
 
-The table provides detailed data for each location, including the name of the location, ID, chain, territory, whether it's in a competitive territory, the sales amount, and the selling area.
-You can see which specific locations belong to Fashions Direct or Lindseys and whether they fall under a competitive territory or not. The selling area and sales are also displayed to provide context.
-In summary, Fashions Direct is outperforming Lindseys both in terms of total sales and selling area. Non-competitive territories dominate in terms of selling area, and larger selling areas typically generate higher sales, though this is not always the case.
+## Analysis and Insights  
+The analysis produced several key insights into BG Fashion Line’s performance:
+- **Sales Distribution by Chain**: Fashions Direct contributed approximately 63.99% of the total sales, while Lindseys accounted for 36.01%, suggesting different performance dynamics between the two chains.
+- **Sales by Territory**: Sales varied across territories, with states like Ohio (OH) and Pennsylvania (PA) showing stronger performance. The presence of competitors in certain territories affected sales, highlighting the need for careful location selection.
+- **Sales vs. Selling Area**: Larger stores generally correlated with higher sales, suggesting that expanded floor space could drive sales in specific markets.
+
+## Tools  
+This project was conducted using Power BI for data visualization and analysis.
+
+## How to Use This Repository  
+1. **Clone the Repository**:  
+   ```bash
+   git clone https://github.com/your-username/BG-Fashion-Line-Analysis.git
+   ```
+
+2. **View the Power BI Dashboard**:  
+   - Open the provided Power BI (.pbix) file to explore the interactive dashboard.
+   - Analyze the visualizations to see sales performance by chain, territory, and selling area.
+
+3. **Explore the Data**:  
+   - The dataset can be examined in Power BI or other tools for further analysis or additional insights.
+
+## Key Visualizations  
+- **Sales by Chain**: Breakdown of sales between Fashions Direct and Lindseys.
+- **Sales by Territory**: Total annual sales per state.
+- **Competitive Impact**: Sales comparison in competitive vs. non-competitive territories.
+- **Sales vs. Selling Area**: Visualization showing the relationship between store size and sales volume.
+
+## Conclusion  
+This analysis provides a detailed view of the BG Fashion Line's performance across multiple dimensions. The insights gained can guide decisions on store locations, inventory management, and marketing focus areas. 
+
+## Contact  
+Feel free to reach out if you have questions or insights to share!
